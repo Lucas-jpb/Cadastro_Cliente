@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site novo</title>
+</head>
+<body>
+
+    <div class="Lista_principal">
+        <h1>Olá Bem-Vindo ao meu site de educação São Paulo</h1>
+        <h2>Com este site é possível visualizar todo o rendimento escolar dos estudante da escola estadual, é possível ver:</h2>
+        <ul>
+            <li>Número de frequência em cada materia dada em sala de aula;</li>
+            <li>Boletim e notas escolares de cada estudante;</li>
+            <li>Agenda do mês para mostrar os horário de aulas, incluindo também eventos marcados em dia específico;</li>
+            <li>Materiais de apoio em forma de slide de cada disciplina, que está disponível na plataforma.</li>
+        </ul>
+    </div>
+
+    <div class="Nota e Presença">
+        <h2>Estudante aqui abaixo você consegue ver o seu número de frequência e notas de cada máteria:</h2>
+
+        <table>
+            <thead> <!--Colunas DA TABELA-->
+                <tr>
+                    <th scope="col" class="Espaço vazio"></th>
+                    <th scape="col">História</th>
+                    <th scape="col">Física</th>
+                    <th scape="col">Português</th>
+                    <th scape="col">Matemática</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th scope="row">Um total de 90 aulas no bimestre</th>
+                </tr>
+            </tbody>
+
+        </table>
+
+      
